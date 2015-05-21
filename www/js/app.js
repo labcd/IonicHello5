@@ -21,7 +21,7 @@ angular.module('starter', ['ionic', 'controllers', 'services'])
     controller: 'TasksDetailController'
   })
 
-  $urlRouterProvider.otherwise('list');
+  $urlRouterProvider.otherwise('/');
 
 })
 
